@@ -3,154 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mohayu Din - Full Stack Web Developer Portfolio">
-    <title>Mohayu Din | Full Stack Web Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Mohayu Din | Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
         body {
-            margin: 0;
-            font-family: 'Poppins', sans-serif;
-            background-color: #f4f7fc;
-            color: #333;
-            line-height: 1.6;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        header {
-            background-color: #283593;
-            color: #fff;
-            padding: 50px 0;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 36px;
-            margin: 0;
-        }
-
-        header p {
-            font-size: 20px;
-            margin-top: 10px;
-        }
-
-        section {
-            padding: 50px 10%;
-            text-align: center;
-            flex: 1;
-        }
-
-        h2 {
-            font-size: 30px;
-            margin-bottom: 20px;
-        }
-
-        .skills {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-
-        .skill {
-            background-color: #fff;
-            border: 2px solid #283593;
-            border-radius: 8px;
-            padding: 20px;
-            width: 180px;
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-        }
-
-        .skill:hover {
-            transform: translateY(-10px);
-        }
-
-        .skill i {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-
-        footer {
-            background-color: #283593;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        footer p {
-            margin: 0;
-            font-size: 16px;
+            font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-900">
 
-<header>
-    <h1>Mohayu Din</h1>
-    <p>Full Stack Web Developer</p>
-</header>
+    <!-- Main container -->
+    <div class="container mx-auto p-8">
 
-<section>
-    <h2>Skills</h2>
-    <div class="skills">
-        <div class="skill">
-            <i class="fab fa-react"></i>
-            <p>React</p>
-        </div>
-        <div class="skill">
-            <i class="fab fa-arrow-right"></i>
-            <p>Next.js</p>
-        </div>
-        <div class="skill">
-            <i class="fab fa-node-js"></i>
-            <p>Node.js</p>
-        </div>
-        <div class="skill">
-            <i class="fa-brands fa-golang"></i>
-            <p>Golang</p>
-        </div>
-        <div class="skill">
-            <i class="fab fa-docker"></i>
-            <p>Docker</p>
-        </div>
-        <div class="skill">
-            <i class="fab fa-github"></i>
-            <p>GitHub Actions</p>
-        </div>
-        <div class="skill">
-            <i class="fas fa-database"></i>
-            <p>MongoDB</p>
-        </div>
-        <div class="skill">
-            <i class="fas fa-database"></i>
-            <p>PostgreSQL</p>
-        </div>
-        <div class="skill">
-            <i class="fas fa-database"></i>
-            <p>MySQL</p>
-        </div>
-        <div class="skill">
-            <i class="fas fa-sync-alt"></i>
-            <p>Redux</p>
-        </div>
-        <div class="skill">
-            <i class="fab fa-css3-alt"></i>
-            <p>Tailwind CSS</p>
-        </div>
-        <div class="skill">
-            <i class="fab fa-aws"></i>
-            <p>AWS</p>
-        </div>
+        <!-- Header Section -->
+        <header class="flex flex-col items-center">
+            <h1 class="text-4xl font-bold text-center mb-2">Mohayu Din</h1>
+            <p class="text-lg text-gray-600">Full Stack Web Developer</p>
+        </header>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mt-12">
+            <h2 class="text-3xl font-semibold mb-4">Skills</h2>
+            <div class="flex flex-wrap gap-4">
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">C</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">JavaScript</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">Python</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">TypeScript</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">Golang</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">Goroutines</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">MERN Stack</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">React.js</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">Node.js</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">MongoDB</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">Express.js</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">Next.js</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">TailwindCSS</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">PostgreSQL</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">Docker</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">Git</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">AWS</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">CI/CD</span>
+                <span class="bg-blue-500 text-white py-1 px-3 rounded-full">RESTful APIs</span>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mt-12">
+            <h2 class="text-3xl font-semibold mb-4">Experience</h2>
+
+            <!-- ScrapeOps Experience -->
+            <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+                <h3 class="text-2xl font-semibold">Backend Developer | ScrapeOps | Oct 2023 - Present</h3>
+                <p class="text-gray-600 mt-2">Location: Ireland (Remote)</p>
+                <ul class="list-disc ml-6 mt-4">
+                    <li>Developed and optimized web scraping automation scripts with anti-bot strategies for reliable data extraction.</li>
+                    <li>Maintained scraping solutions for various clients, ensuring high data accuracy and responsiveness to website changes.</li>
+                    <li>Authored technical blog articles to share insights on advanced web scraping techniques and enhance community engagement.</li>
+                </ul>
+            </div>
+
+            <!-- Arbitrage Experience -->
+            <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+                <h3 class="text-2xl font-semibold">Backend Developer | Arbitrage | Sep 2023 - Oct 2023</h3>
+                <p class="text-gray-600 mt-2">Location: Spain (Remote)</p>
+                <ul class="list-disc ml-6 mt-4">
+                    <li>Designed and implemented a web crawler for data collection from multiple betting sites, supporting better decision-making.</li>
+                    <li>Improved the application UI for enhanced user experience, based on user feedback and modern design principles.</li>
+                    <li>Developed an algorithm that optimized bidding processes, resulting in increased operational efficiency.</li>
+                </ul>
+            </div>
+            
+                        <!-- Bitnine Experience -->
+            <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+                <h3 class="text-2xl font-semibold">Software Engineer Intern | Bitnine Global Inc | Feb 2023 - Aug 2023</h3>
+                <p class="text-gray-600 mt-2">Location: Seoul, Korea (Remote)</p>
+                <ul class="list-disc ml-6 mt-4">
+                    <li>Enhanced Apache AGE database by integrating openCypher Query standards, improving performance and usability.</li>
+                    <li>Developed an admin dashboard using React.js for efficient management and visualization of database metrics.</li>
+                    <li>Optimized SQL performance, addressing critical segmentation faults and enhancing system stability.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mt-12">
+            <h2 class="text-3xl font-semibold mb-4">Projects</h2>
+
+            <!-- General Purpose Dashboard -->
+            <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+                <h3 class="text-2xl font-semibold">General Purpose Dashboard</h3>
+                <p class="mt-2 text-gray-600">Developed a dashboard application with real-time data charts, task lists, and notifications using React.js and Node.js.</p>
+            </div>
+
+            <!-- E-commerce Platform -->
+            <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+                <h3 class="text-2xl font-semibold">E-commerce Platform</h3>
+                <p class="mt-2 text-gray-600">Created a full-stack e-commerce platform with user authentication and payment processing using MERN stack technologies.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mt-12">
+            <h2 class="text-3xl font-semibold mb-4">Contact Me</h2>
+            <div class="flex space-x-6">
+                <a href="mailto:22mohayudin@gmail.com" class="text-blue-600">Email</a>
+                <a href="tel:03463667345" class="text-blue-600">Phone</a>
+                <a href="https://www.linkedin.com/in/mohayu-din-918374258/" class="text-blue-600">LinkedIn</a>
+                <a href="https://github.com/mohayu22" class="text-blue-600">GitHub</a>
+            </div>
+        </section>
     </div>
-</section>
-
-<footer>
-    <p>&copy; 2024 Mohayu Din. All rights reserved.</p>
-</footer>
-
 </body>
 </html>
